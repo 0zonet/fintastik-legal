@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidad — Fintastik</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-base: #060A12;
+      --bg-surface: #0E1320;
+      --text-heading: #F0F0F5;
+      --text-body: #D0D0D8;
+      --text-muted: #909098;
+      --primary: #00D4FF;
+      --border: rgba(255,255,255,0.07);
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Plus Jakarta Sans', sans-serif; background: var(--bg-base); color: var(--text-body); line-height: 1.8; -webkit-font-smoothing: antialiased; }
+    .container { max-width: 720px; margin: 0 auto; padding: 60px 24px 100px; }
+    .brand { display: flex; align-items: center; gap: 8px; margin-bottom: 40px; }
+    .brand-dot { width: 10px; height: 10px; border-radius: 3px; background: var(--primary); }
+    .brand-name { font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 700; color: var(--text-heading); letter-spacing: -0.3px; }
+    h1 { font-family: 'DM Sans', sans-serif; font-size: 28px; font-weight: 700; color: var(--text-heading); letter-spacing: -0.5px; margin-bottom: 8px; }
+    .updated { font-size: 13px; color: var(--text-muted); margin-bottom: 40px; }
+    h2 { font-family: 'DM Sans', sans-serif; font-size: 18px; font-weight: 600; color: var(--text-heading); margin-top: 36px; margin-bottom: 12px; padding-top: 20px; border-top: 0.5px solid var(--border); }
+    h2:first-of-type { border-top: none; padding-top: 0; }
+    p { margin-bottom: 14px; font-size: 15px; }
+    strong { color: var(--text-heading); }
+    ul { margin-bottom: 14px; padding-left: 24px; }
+    li { font-size: 15px; margin-bottom: 6px; }
+    a { color: var(--primary); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .highlight { background: var(--bg-surface); border-radius: 10px; padding: 16px; margin: 16px 0; border-left: 3px solid var(--primary); }
+    .highlight p { margin-bottom: 0; }
+    .footer { margin-top: 60px; padding-top: 20px; border-top: 0.5px solid var(--border); text-align: center; font-size: 12px; color: var(--text-muted); }
+    @media (max-width: 480px) { .container { padding: 40px 16px 60px; } h1 { font-size: 24px; } h2 { font-size: 16px; } }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="brand">
+      <div class="brand-dot"></div>
+      <span class="brand-name">Fintastik</span>
+    </div>
+
+    <h1>Política de Privacidad</h1>
+    <p class="updated">Última actualización: 4 de abril de 2026</p>
+
+    <div class="highlight">
+      <p>Fintastik respeta tu privacidad. Esta política explica qué datos recopilamos, cómo los usamos y cuáles son tus derechos. Nos regimos por la Ley 19.628 sobre Protección de la Vida Privada de Chile.</p>
+    </div>
+
+    <h2>1. Responsable del tratamiento</h2>
+    <p>Fintastik es una aplicación desarrollada y operada por su creador independiente. Para cualquier consulta sobre privacidad, puedes contactarnos en <a href="mailto:contacto@fintastik.cl">contacto@fintastik.cl</a>.</p>
+
+    <h2>2. Datos que recopilamos</h2>
+    <p>Recopilamos los siguientes datos cuando usas Fintastik:</p>
+    <ul>
+      <li><strong>Datos de cuenta:</strong> nombre, dirección de correo electrónico y foto de perfil proporcionados por Google al iniciar sesión con Google OAuth.</li>
+      <li><strong>Datos de gastos:</strong> información que ingresas manualmente o que se extrae de boletas escaneadas, incluyendo comercio, monto, fecha, categoría y detalle de productos.</li>
+      <li><strong>Imágenes de boletas:</strong> fotografías de boletas que escaneas para registrar gastos. Estas imágenes se procesan para extraer información y se almacenan en servidores seguros.</li>
+      <li><strong>Datos de uso:</strong> información sobre cómo interactúas con la app, como pantallas visitadas y funcionalidades utilizadas.</li>
+      <li><strong>Datos del dispositivo:</strong> tipo de dispositivo, sistema operativo y versión de la app.</li>
+    </ul>
+    <p>No recopilamos datos bancarios, números de tarjeta de crédito, RUT, ni otra información financiera sensible.</p>
+
+    <h2>3. Cómo usamos tus datos</h2>
+    <p>Usamos tus datos exclusivamente para:</p>
+    <ul>
+      <li>Proveer el servicio de gestión de gastos personales.</li>
+      <li>Procesar boletas escaneadas mediante inteligencia artificial (OCR) para extraer información de productos y montos.</li>
+      <li>Generar estadísticas y visualizaciones de tus gastos.</li>
+      <li>Gestionar presupuestos mensuales por categoría.</li>
+      <li>Mejorar la calidad del servicio y la precisión del reconocimiento de boletas.</li>
+      <li>Comunicarnos contigo sobre tu cuenta y actualizaciones del servicio.</li>
+    </ul>
+
+    <h2>4. Procesamiento de boletas con IA</h2>
+    <p>Cuando escaneas una boleta, la imagen se envía a un servicio de inteligencia artificial (OpenAI GPT-4o Vision) para extraer el texto y los datos de los productos. Este procesamiento implica que:</p>
+    <ul>
+      <li>La imagen de tu boleta se transmite de forma cifrada al proveedor de IA.</li>
+      <li>El proveedor de IA procesa la imagen para extraer texto y no almacena las imágenes después del procesamiento.</li>
+      <li>Los datos extraídos se almacenan en nuestros servidores asociados a tu cuenta.</li>
+    </ul>
+
+    <h2>5. Almacenamiento y seguridad</h2>
+    <p>Tus datos se almacenan en servidores seguros con las siguientes medidas de protección:</p>
+    <ul>
+      <li>Cifrado en tránsito (HTTPS/TLS) para todas las comunicaciones.</li>
+      <li>Autenticación mediante tokens JWT firmados.</li>
+      <li>Contraseñas y tokens de acceso nunca se almacenan en texto plano.</li>
+      <li>Las imágenes de boletas se almacenan en Cloudinary con acceso restringido.</li>
+      <li>La base de datos PostgreSQL cuenta con acceso restringido y copias de seguridad periódicas.</li>
+    </ul>
+
+    <h2>6. Compartición de datos</h2>
+    <p>No vendemos, alquilamos ni compartimos tus datos personales con terceros para fines comerciales o publicitarios. Compartimos datos únicamente con:</p>
+    <ul>
+      <li><strong>Google:</strong> para autenticación OAuth (nombre y email).</li>
+      <li><strong>OpenAI:</strong> imágenes de boletas para procesamiento OCR (no se almacenan después del procesamiento).</li>
+      <li><strong>Cloudinary:</strong> almacenamiento seguro de imágenes de boletas.</li>
+      <li><strong>Railway:</strong> infraestructura de hosting del backend.</li>
+    </ul>
+    <p>Podemos divulgar datos si es requerido por ley o por orden judicial en Chile.</p>
+
+    <h2>7. Retención de datos</h2>
+    <p>Conservamos tus datos mientras mantengas una cuenta activa en Fintastik. Los gastos eliminados se marcan como "eliminados" (soft delete) pero permanecen en la base de datos por 90 días antes de ser purgados permanentemente.</p>
+    <p>Si solicitas la eliminación de tu cuenta, eliminaremos todos tus datos personales en un plazo máximo de 30 días.</p>
+
+    <h2>8. Tus derechos</h2>
+    <p>De acuerdo con la Ley 19.628 de Chile, tienes derecho a:</p>
+    <ul>
+      <li><strong>Acceso:</strong> solicitar una copia de tus datos personales.</li>
+      <li><strong>Rectificación:</strong> corregir datos inexactos o incompletos.</li>
+      <li><strong>Cancelación:</strong> solicitar la eliminación de tus datos.</li>
+      <li><strong>Oposición:</strong> oponerte al tratamiento de tus datos en ciertos casos.</li>
+    </ul>
+    <p>Para ejercer estos derechos, contáctanos en <a href="mailto:contacto@fintastik.cl">contacto@fintastik.cl</a>. Responderemos en un plazo máximo de 15 días hábiles.</p>
+
+    <h2>9. Menores de edad</h2>
+    <p>Fintastik no está dirigida a menores de 13 años. No recopilamos intencionalmente datos de menores de 13 años. Si descubrimos que hemos recopilado datos de un menor, los eliminaremos de inmediato.</p>
+
+    <h2>10. Cambios a esta política</h2>
+    <p>Podemos actualizar esta política ocasionalmente. Te notificaremos de cambios significativos a través de la app o por correo electrónico. El uso continuado de Fintastik después de los cambios constituye tu aceptación de la política actualizada.</p>
+
+    <h2>11. Contacto</h2>
+    <p>Si tienes preguntas sobre esta política de privacidad, contáctanos en:</p>
+    <p><a href="mailto:contacto@fintastik.cl">contacto@fintastik.cl</a></p>
+
+    <div class="footer">
+      <p>© 2026 Fintastik. Todos los derechos reservados.</p>
+      <p style="margin-top: 8px;"><a href="terms.html">Términos de Uso</a></p>
+    </div>
+  </div>
+</body>
+</html>
